@@ -1,0 +1,25 @@
+======================================
+    IID: 0
+    Dataset: cifar
+    Model: resnet
+    Model Init: None
+    Aggregation Function: ours
+    Attack method: badnet
+    Attack tau: 0.8
+    Fraction of malicious agents: 40.0%
+    Poison Frac: 0.2
+    Backdoor From 7 to 5
+    Attack Begin: 0
+    Trigger Shape: square
+    Trigger Position X: 0
+    Trigger Position Y: 0
+    Number of agents: 100
+    Fraction of agents each turn: 10(10.0%)
+    Local batch size: 50
+    Local epoch: 3
+    Client_LR: 0.01
+    Client_Momentum: 0.9
+    Global Rounds: 50
+======================================
+main_task_accuracy=[0.0001, 16.940000534057617, 19.610000610351562, 32.63999938964844, 34.66999816894531, 33.79999923706055, 43.9900016784668, 32.34000015258789, 44.70000076293945, 42.31999969482422, 39.97999954223633, 49.29999923706055, 51.52000045776367]
+backdoor_accuracy=[0, 0.0, 14.3, 5.5, 8.9, 14.8, 74.1, 50.0, 54.8, 60.7, 68.6, 77.4, 66.4]
